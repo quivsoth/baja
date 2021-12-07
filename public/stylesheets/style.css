@@ -1,0 +1,162 @@
+.bg-image {
+  width: 100%;
+  background: url('/images/fullmoon.png') no-repeat right fixed;
+  background-position: 80% 68%;
+}
+
+body {
+    font-family: 'splendid_66regular';
+    background-color: black;
+}
+
+
+.bjb-header {
+    
+
+
+}
+
+.blockSpace4 {
+    padding-bottom: 4rem;
+}
+
+.breadcrumb-item,
+.breadcrumb-item li,
+.breadcrumb-item a {
+    color: coral;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
+
+.card {
+    text-decoration: none;
+    background-color: #4b4b4b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    background: #FAFAFA;
+    margin-bottom: 40px;
+}
+
+.carousel-cell {
+    width: 100%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+.carousel-nav .carousel-cell {
+    height: 80px;
+    width: 100px;
+}
+.carousel-nav .carousel-cell:before {
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.carousel-nav .carousel-cell.is-nav-selected {
+
+
+}
+
+.fas {
+  color: #414141;
+}
+
+
+.imageFloat {
+  padding: 2rem;
+  margin-top: -3rem;
+  background-image: url('/images/emily_transparent2.png');
+  background-repeat: no-repeat;
+  background-position: 80% 18%; /* adjust to fit your design and the image */
+  background-size: 22rem;
+}
+
+.logoHeader,
+.logoHeader a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.menu {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.navbar {
+  background-color: #070707;
+  border-bottom: 1px solid  #252525;
+
+}
+
+.navbar-nav {
+  padding-left: 2rem;
+  font-size: large;
+}
+
+.nav-item {
+  padding-left: 2rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+
+/* .topSection
+{
+  background-image: url(/images/moon.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: 6rem;
+  padding:0.5rem;border-bottom: 1px solid rgb(34, 34, 34);
+  margin-bottom: 10px;
+} */
+
+
+
+.sectionHeader {
+    font-size: xx-large;
+}
+
+#image-slider {
+  width : 20rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#itemEdit {
+  color: white;
+}
+
+.splide__slide img {
+	width : 20rem;
+	height: auto;
+  border-radius: 5px;
+}
